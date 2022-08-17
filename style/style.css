@@ -19,6 +19,7 @@ body{
     background-color: #e5e5e5;
     color: #533738;
     font-family: 'Montserrat', sans-serif;
+    width: 1400px;
 }
 
 a {
@@ -28,6 +29,14 @@ a {
 
 .navigation-list{
     list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.wide-container{
+    display: flex;
+    
 }
 
 .main-heading{
@@ -37,11 +46,8 @@ a {
     line-height: 62px;
 }
 
-.section-heading{
-    text-transform: uppercase;
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 50px;
+.button{
+    background-color: #CC8B86;
 }
 
 .promo{
@@ -50,8 +56,23 @@ a {
     background-color: #F9EAE1;
 }
 
-.button{
-    background-color: #CC8B86;
+.promo-description{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.promo-button{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.section-heading{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
 }
 
 .advantages{
@@ -72,6 +93,19 @@ a {
     padding: 80px;
 }
 
+.example{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+}
+
+.example-text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+
 .team{
     background-color: #E2C4BA;
 }
@@ -82,6 +116,7 @@ a {
 
 .form{
     background-color: #8D7370;
+    color: #FFFFFF;
 }
 
 .footer-content{
