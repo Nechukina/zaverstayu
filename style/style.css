@@ -43,6 +43,7 @@ a {
     align-items: baseline;
 }
 
+
 .high-container{
     height: 715px;
     background-image: url(../img/background.jpg);
@@ -77,10 +78,6 @@ a {
     text-align: center;
 }
 
-.promo{
-    
-}
-
 .promo-description{
     font-weight: 400;
     font-size: 18px;
@@ -92,12 +89,31 @@ a {
     font-size: 20px;
     line-height: 24px;
 }
-
+.section-heading-about{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+}
 .section-heading{
     text-transform: uppercase;
     font-weight: 400;
     font-size: 40px;
     line-height: 50px;
+}
+
+.half-wrap{
+    display: flex;
+    margin-left: 183px;
+    margin-bottom: 21px;
+    gap: 63px;
+}
+
+.text-wrap{
+font-size: 18px;
+line-height: 30px;
+width: 528px;
 }
 
 .advantages{
@@ -129,6 +145,20 @@ a {
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
+    color: #FFFFFF;
+}
+
+.example-text-wrap{
+    background-image: url(../img/portfolio-1.jpg);
+    display: block;
+    width: 488px;
+    height: 451px;
+}
+
+.container-portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
 }
 
 .team{
