@@ -28,8 +28,11 @@ a {
     color: #533738;
 }
 
-.navigation-list{
+li{
     list-style: none;
+}
+
+.navigation-list{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -231,6 +234,43 @@ width: 528px;
     text-align: center;
 }
 
+.review-item{
+    display: grid;
+    grid-template-columns: 407px 407px;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+
+.title-reviews{
+    margin: 0;
+    text-align: center;
+    margin-top: 65px;
+    margin-bottom: 40px;
+}
+
+.img-review img{
+    margin-bottom: 20px;;
+}
+
+.container-form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.form-wrap{
+    display: flex;
+    flex-direction: column;
+    width: 507px;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.form-wrap p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
 .form{
     background-color: #8D7370;
     color: #FFFFFF;
