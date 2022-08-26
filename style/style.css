@@ -146,10 +146,14 @@ width: 528px;
 
 .example-text-wrap{
     background-image: url(../img/portfolio-1.jpg);
-    background-color:  rgba(100, 72, 69, 0.8);
+    background-color: rgba(100, 72, 69, 0.8);
     display: block;
     width: 488px;
     height: 451px;
+}
+
+.example-text-wrap:hover{
+    background-image: linear-gradient(rgba(100, 72, 69, 0.8)),rgba(100, 72, 69, 0.8), url(../img/portfolio-1.jpg);
 }
 
 .example{
