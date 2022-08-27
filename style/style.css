@@ -262,6 +262,7 @@ width: 528px;
     width: 507px;
     justify-content: flex-start;
     align-items: center;
+    margin-left: 182px;
     
 }
 
@@ -269,14 +270,25 @@ width: 528px;
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
+    opacity: 0.6;
 }
 .form{
     background-color: #8D7370;
     color: #FFFFFF;
 }
 
+input {
+    border: none;
+    border-bottom: #FFFFFF;
+    background-color: #8D7370;
+}
+
+
 .footer-content{
     list-style: none;
-    display: flex;
-
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    font-weight: 400;
+font-size: 18px;
+line-height: 30px;
 }
