@@ -16,7 +16,7 @@
 
 
 body{
-    background-color: #e5e5e5;
+    background-color: #EFE6E4;;
     color: #533738;
     font-family: 'Montserrat', sans-serif;
     width: 1400px;
@@ -49,8 +49,7 @@ li{
 
 .high-container{
     height: 715px;
-    background-image: url(../img/background.jpg);
-    
+    background-image: url(../img/background.jpg);    
     background-color: #F9EAE1;
 }
 .main-heading{
